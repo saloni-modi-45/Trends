@@ -1,0 +1,269 @@
+*{
+    margin:0%;
+    padding:0%;
+    font-family: 'roboto',sans-serif;
+}
+body{
+    background-color: #eee;
+  
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: #eee;
+    padding:20px;
+      box-shadow: 0px 2px 2px 2px gray;
+}
+
+ul{
+    margin-right: 40px;
+    margin-top: 7px;
+}
+nav.logo{
+    margin-left: 22px;
+    font-size: 24px;
+}
+nav ul li{
+    list-style: none;
+
+}
+ul li a{
+    margin-inline: 22px;;
+    font-size: 20px;
+}
+ul li i{
+    font-size: 20px;
+}
+ul li #home{
+    color: rgb(5, 167, 167);
+
+}
+ul li a:hover{
+    border-bottom: 3px solid gray;
+    cursor: pointer;
+}
+ul li i:hover{
+    color: gray;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+
+}
+.main .mainText{
+    margin-top: 104px;
+}
+.mainText h1{
+    font-size: 54px;
+    
+}
+.mainText .top{
+    color: rgb(5, 167, 167);
+    margin-top: 20px;
+}
+.mainText button {
+    width :145px;
+    height:40px;
+    background-color: rgb(5, 167, 167);
+    border:none;
+    font-size:22px;
+    color: white;
+    margin-top: 20px;
+}
+
+.mainText button:hover{
+    border:4px solid rgb(5, 167, 167) ;
+    background-color:transparent;
+    color: rgb(5, 167, 167);
+}
+.trend  .head{
+    text-align:center;
+    padding:33px ;
+    margin-top:22px;
+}
+.head span{
+    color:rgb(5, 167, 167);
+}
+.card{
+    display:flex;
+    justify-content: space-between;
+}
+.card .crd{
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    margin-inline: 10px;
+    padding: 20px;
+}
+.crd img{
+    width:85%;
+    border-radius: 30px;
+    
+}
+.crdText{
+    margin-left:16px ;
+    padding: 8px;
+}
+.crdText button{
+    width: 100;
+    height:30 ;
+    border: none;
+    background-color: rgb(5, 167, 167);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.crdText i{
+    color:darkgoldenrod;
+
+}
+
+/* About */
+.aboutus{
+background-color: rgb(1,1,42);
+color: #eee;
+padding: 50px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+.me{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    padding: 30px;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.about{
+    display:none;
+}
+/* contact */
+.contact{
+    display: none;
+}
+.contactus{
+background-color:rgb(1,1,42) ;
+color: #eee;
+padding: 50px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+.contactme{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin-inline: 10%;
+    margin-top: 10px;
+    padding: 30px;
+    background-color: #eee;
+    border: 2px groove rgb(0, 166, 255);
+
+
+}
+.contactus img{
+    width:60%;
+}
+.form{
+    margin-inline: 300px;
+    padding: 20px;
+    background-color: bisque;
+    border: 3px groove rgb(24, 24, 25);
+    margin-top: 5px;
+
+}
+
+/* .form ul li{
+    padding: 10px;
+    margin: 10px;
+
+} */
+.form button{
+    background-color: rgb(5, 122, 5);
+    color: #fff;
+    width: 200px;
+    padding: 8px;
+}
+
+
+/* cart */
+.cart{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    color:darkslategrey;  
+ 
+    margin: 50px; 
+    padding: 40px;
+     
+}
+
+
+
+.blog{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    margin-inline: 10px;
+    width: 800px;
+    height: 250px;
+    margin-left: 200px;
+    
+}
+
+.blog img{
+    width: 10%;
+    padding: 22px;
+}
+.blogText{
+    padding: 22px;
+    margin-top: 33px;
+}
+.blogText a {
+    width: 120px;
+    padding: 10px;
+    margin-bottom:150px; 
+    background-color: rgb(5, 167, 167);
+    color: white;
+    font-size: 10px;
+}
+.blog h2{
+    color: rgb(5, 167, 167);
+    background-color: #eee;
+    display: inline;
+}
+.blog p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+.letter{
+    background-color:darkslategrey;
+    display: flex;
+    justify-content: space-between;
+    color: #eee;
+    padding: 40px;
+
+}
+.footer{
+    background-color:darkblue;
+    margin-top:40px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 55px;
+   
+}
+.footerText{
+    line-height: 40px;
+}
+ .footer .footerText{
+    margin-inline: 85px;
+}
+.footerText p{
+    margin-top: 10px;
+}
+
+
